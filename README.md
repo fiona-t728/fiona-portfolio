@@ -1,6 +1,6 @@
 # Fiona Tang portfolio
 
-A static, responsive portfolio for Fiona Tang, with the LinkedIn headline and location supplied by the owner, a verified Pocket CFO project, and links to her LinkedIn and GitHub profiles.
+A static, deliberately ugly and animated portfolio for Fiona Tang. It uses the LinkedIn headline and location supplied by the owner, a verified Pocket CFO project, and links to her LinkedIn and GitHub profiles. The neon colors, floating coins, moving ticker, and construction tape intentionally match the Pocket CFO site's aesthetic.
 
 Open `index.html` directly, or run `python -m http.server 8765` in this folder and visit `http://127.0.0.1:8765`.
 
@@ -8,4 +8,4 @@ LinkedIn blocks automated access to the profile. The owner pasted the visible he
 
 Published site: <https://fiona-t728.github.io/fiona-portfolio/>. GitHub Pages serves the root of the `main` branch; a push updates the website.
 
-The site has no dependencies or analytics. `styles.css` contains desktop and mobile layouts, visible keyboard focus, and reduced-motion support. External links open in a new tab with `rel="noopener noreferrer"`.
+The site has no dependencies or analytics. `styles.css` contains the base layout; `ugly.css` supplies the requested theme and reduced-motion support. External links open in a new tab with `rel="noopener noreferrer"`.
